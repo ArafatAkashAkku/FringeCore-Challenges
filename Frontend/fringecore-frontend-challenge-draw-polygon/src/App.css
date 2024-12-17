@@ -1,0 +1,21 @@
+/* Reset margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  .drawing-area {
+    cursor: crosshair;
+  }
+  
+  circle {
+    cursor: pointer;
+    transition: fill 0.2s;
+  }
+  
+  circle:hover {
+    fill: orange;
+  }
+  
